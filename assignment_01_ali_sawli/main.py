@@ -48,7 +48,7 @@ def strong_password(string):
     if i.islower():
       resultOfLower = True
       break
-  for i in string:
+  for i in string: 
     if i.isdigit():
       resultOfDigit = True
       break
